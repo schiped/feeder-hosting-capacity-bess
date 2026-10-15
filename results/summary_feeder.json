@@ -1,0 +1,124 @@
+{
+  "hosting_capacity_mw": {
+    "min": 0.9585073353942937,
+    "max": 6.3577207659033395,
+    "bus_min": 18,
+    "max_ac_vmax_at_hc": 1.0681991139972296
+  },
+  "limit_growth_factor": 1.15899658203125,
+  "first_violation_year": 5,
+  "almagba_85pct_criterion": {
+    "loading_trigger": 0.85,
+    "growth_factor_at_trigger": 1.03338623046875,
+    "first_year_above_85pct": 1,
+    "bess_mw": 0.5995720187511465,
+    "bess_mwh": 2.270644045628158,
+    "sites": [
+      13
+    ],
+    "capex_usd": 851129.0165011109
+  },
+  "reinforcement": {
+    "capex_usd": 1003940.0,
+    "branches": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "km": 7.170999999999999
+  },
+  "deferral": [
+    {
+      "defer_years": 0,
+      "bess_capex": 0.0,
+      "bess_mw": 0.0,
+      "bess_mwh": 0.0,
+      "net_saving": 0.0,
+      "with_almagba": 0.0,
+      "sites": NaN
+    },
+    {
+      "defer_years": 1,
+      "bess_capex": 107713.74521940584,
+      "bess_mw": 0.033457916411813934,
+      "bess_mwh": 0.07565019252544582,
+      "net_saving": -10211.96545947119,
+      "with_almagba": 11819.64907551093,
+      "sites": [
+        18
+      ]
+    },
+    {
+      "defer_years": 2,
+      "bess_capex": 202909.25964649126,
+      "bess_mw": 0.1285007154187099,
+      "bess_mwh": 0.3454471744455876,
+      "net_saving": -17802.894105180356,
+      "with_almagba": 66813.20077438008,
+      "sites": [
+        18
+      ]
+    },
+    {
+      "defer_years": 3,
+      "bess_capex": 422993.83001626283,
+      "bess_mw": 0.23772584788418616,
+      "bess_mwh": 0.7577831761121013,
+      "net_saving": -107623.55479530856,
+      "with_almagba": 48915.907528676355,
+      "sites": [
+        18,
+        33
+      ]
+    },
+    {
+      "defer_years": 4,
+      "bess_capex": 769956.5053871819,
+      "bess_mw": 0.5055724396781184,
+      "bess_mwh": 1.780402131451547,
+      "net_saving": -280483.2219398765,
+      "with_almagba": 52429.83138360514,
+      "sites": [
+        18,
+        33
+      ]
+    },
+    {
+      "defer_years": 5,
+      "bess_capex": 1275824.0978555577,
+      "bess_mw": 0.7827936621848398,
+      "bess_mwh": 3.328016828426106,
+      "net_saving": -555880.9637491014,
+      "with_almagba": -40421.243741139595,
+      "sites": [
+        18,
+        33
+      ]
+    }
+  ],
+  "ac_check_min_voltage": {
+    "none": 0.9120231438127516,
+    "reinforced": 0.9492217345199162,
+    "bess": 0.9390802861867492
+  },
+  "assumptions": {
+    "growth": 0.035,
+    "horizon": 10,
+    "rate": 0.1,
+    "limits": {
+      "v_min": 0.93,
+      "v_max": 1.07
+    },
+    "costs": {
+      "reconductor_usd_per_km": 140000,
+      "bess_usd_per_kwh": 300.0,
+      "bess_usd_per_kw": 150.0,
+      "bess_site_usd": 80000,
+      "max_bess_sites": 2,
+      "eta": 0.92
+    },
+    "ratings": "max(1.2 x nominal peak flow, 2 MVA)"
+  }
+}

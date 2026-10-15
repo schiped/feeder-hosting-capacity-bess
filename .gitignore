@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/*.log
+.streamlit/
+
+# CAMMESA raw data is not redistributed; regenerate with: python data/fetch_data.py
+data/raw/cammesa_*.csv

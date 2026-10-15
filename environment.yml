@@ -1,0 +1,12 @@
+name: energy-portfolio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pyomo>=6.7
+  - highspy
+  - pandas
+  - numpy
+  - matplotlib
+  - requests
+  - streamlit
